@@ -6,99 +6,101 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header">
-    <nav class="header__navigation">
-        <a href="#">Информация</a>
-        <a href="#">Новости</a>
-        <a href="price.html">Прайс-лист</a>
-        <a href="shop.html">Магазин</a>
-        <a href="#">Контакты</a>
+<header>
+    <nav class="navigation">
+        <a class="navigation__item" href="#">Информация</a>
+        <a class="navigation__item" href="#">Новости</a>
+        <a class="navigation__item" href="price.html">Прайс-лист</a>
+        <a class="navigation__item" href="shop.html">Магазин</a>
+        <a class="navigation__item" href="#">Контакты</a>
     </nav>
-    <span class="header__login">
-        <a href="#">Вход</a>
+    <span class="login">
+        <a class="button" href="#">Вход</a>
     </span>
-    <h1 class="header__logo">Barbershop Borodinski</h1>
-    <section class="header__advantages">
-        <section>
-            <h2>Быстро</h2>
-            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы &mdash; и вы счастливый обладатель
+    <h1 class="logo">Barbershop Borodinski</h1>
+    <section class="advanteges">
+        <section class="advanteges-item">
+            <h2 class="advanteges-item__header">Быстро</h2>
+            <p class="advanteges-item__text">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы &mdash; и вы счастливый обладатель
                 стильной стрижки-минутки!</p>
         </section>
-        <section>
-            <h2>Круто</h2>
-            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
+        <section class="advanteges-item">
+            <h2 class="advanteges-item__header">Круто</h2>
+            <p class="advanteges-item__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
         </section>
-        <section>
-            <h2>Дорого</h2>
-            <p>Наши мастера &mdash; профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не
+        <section class="advanteges-item">
+            <h2 class="advanteges-item__header">Дорого</h2>
+            <p class="advanteges-item__text">Наши мастера &mdash; профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не
                 дает определенный статус?</p>
         </section>
     </section>
 </header>
-<main class="main">
+<main>
     <section class="news">
-        <h2>Новости</h2>
-        <article class="news_new">
-            <p>Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-            <span class="news__date">11 января</span>
+        <h2 class="news__header">Новости</h2>
+        <article class="news-item">
+            <p class="news-item__text">Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+            <span class="news-item__date">11 января</span>
         </article>
-        <article class="news_new">
-            <p>В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов
+        <article class="news-item">
+            <p class="news-item__text">В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов
                 и наград пополнил наши стройные ряды.</p>
-            <span class="news__date">18 января</span>
+            <span class="news-item__text">18 января</span>
         </article>
-        <a href="#" class="button">Все новости</a>
+        <a class="button" href="#">Все новости</a>
     </section>
     <section class="gallery">
-        <h2>Фотогалерея</h2>
-        <img src="#" alt="gallery" class="gallery__photo">
-        <a href="#" class="button">Назад</a>
-        <a href="#" class="button">Вперед</a>
+        <h2 class="gallery__header">Фотогалерея</h2>
+        <img class="gallery__photo" src="#" alt="gallery">
+        <a class="button" href="#">Назад</a>
+        <a class="button" href="#">Вперед</a>
     </section>
-    <section class="contacts">
-        <h2>Контактная Информация</h2>
-        <p>
+    <section class="about-us">
+        <h2 class="about-us__header">Контактная Информация</h2>
+        <p class="about-us__address">
             Барбершоп &laquo;Бородинский&raquo;<br>
             Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
             Телефон +7 (495) 666-02-66</p>
         <p>Время работы: ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
-        <a href="#" class="button">Как проехать</a>
-        <a href="#" class="button">Обратная связь</a>
+        <a class="button" href="#">Как проехать</a>
+        <a class="button" href="#">Обратная связь</a>
     </section>
-    <section>
-        <h2>Записаться</h2>
-        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
-        <form action="#">
-            <input type="text" name="date" placeholder="Дата">
-            <input type="text" name="name" placeholder="Ваше имя">
-            <input type="text" name="time" placeholder="Время">
-            <input type="text" name="phone" placeholder="Телефон">
-            <input type="submit" value="Отправить" class="button button_size-xl">
+    <section class="record">
+        <h2 class="record__header">Записаться</h2>
+        <p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
+        <form class="record-form" action="#">
+            <input class="record-form__input" type="text" name="date" placeholder="Дата">
+            <input class="record-form__input" type="text" name="name" placeholder="Ваше имя">
+            <input class="record-form__input" type="text" name="time" placeholder="Время">
+            <input class="record-form__input" type="text" name="phone" placeholder="Телефон">
+            <input class="record-form__input" type="submit" value="Отправить" class="button button_size-xl">
         </form>
     </section>
 </main>
-<footer class="footer">
+<footer>
     <p class="address">
         Барбершоп &laquo;Бородинский&raquo;<br>
         Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
         Д. 19/8
-        <a href="#">Как нас найти?</a>
+        <a class="address__map" href="#">Как нас найти?</a>
     </p>
-    <span>Давайте дружить</span>
-    <ul class="social">
-        <li class="social__vk">
-            <a class="button button_size-xs" href="#">V</a>
-        </li>
-        <li class="social__fb">
-            <a class="button button_size-xs" href="#">F</a>
-        </li>
-        <li class="social__inst">
-            <a class="button button_size-xs" href="#">I</a>
-        </li>
-    </ul>
+    <p class="social">
+        <span class="social__text">Давайте дружить</span>
+        <ul class="social-links">
+            <li class="social-links__item">
+                <a class="button" href="#">V</a>
+            </li>
+            <li class="social-links__item">
+                <a class="button" href="#">F</a>
+            </li>
+            <li class="social-links__item">
+                <a class="button" href="#">I</a>
+            </li>
+        </ul>
+    </p>
     <p class="developer">
         <span class="developer_text">Разработано:</span>
-        <a href="#" class="button">htmlacademy.ru</a>
+        <a class="button">htmlacademy.ru</a>
     </p>
 </footer>
 </body>

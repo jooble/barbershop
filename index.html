@@ -6,91 +6,99 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <nav>
+<header class="header">
+    <nav class="header__navigation">
         <a href="#">Информация</a>
         <a href="#">Новости</a>
         <a href="price.html">Прайс-лист</a>
         <a href="shop.html">Магазин</a>
         <a href="#">Контакты</a>
     </nav>
-    <span>
+    <span class="header__login">
         <a href="#">Вход</a>
     </span>
-    <h1>Barbershop Borodinski</h1>
-    <div>
-        <article>
+    <h1 class="header__logo">Barbershop Borodinski</h1>
+    <section class="header__advantages">
+        <section>
             <h2>Быстро</h2>
             <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы &mdash; и вы счастливый обладатель
                 стильной стрижки-минутки!</p>
-        </article>
-        <article>
+        </section>
+        <section>
             <h2>Круто</h2>
             <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
-        </article>
-        <article>
+        </section>
+        <section>
             <h2>Дорого</h2>
             <p>Наши мастера &mdash; профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не
                 дает определенный статус?</p>
-        </article>
-    </div>
+        </section>
+    </section>
 </header>
-<main>
-    <section>
+<main class="main">
+    <section class="news">
         <h2>Новости</h2>
-        <article>
+        <article class="news_new">
             <p>Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-            <span>11 января</span>
+            <span class="news__date">11 января</span>
         </article>
-        <article>
+        <article class="news_new">
             <p>В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов
                 и наград пополнил наши стройные ряды.</p>
-            <span>18 января</span>
+            <span class="news__date">18 января</span>
         </article>
-        <a href="#">Все новости</a>
+        <a href="#" class="button">Все новости</a>
     </section>
-    <section>
+    <section class="gallery">
         <h2>Фотогалерея</h2>
-        <img src="#" alt="gallery">
-        <a href="#">Назад</a>
-        <a href="#">Вперед</a>
+        <img src="#" alt="gallery" class="gallery__photo">
+        <a href="#" class="button">Назад</a>
+        <a href="#" class="button">Вперед</a>
     </section>
-    <section>
+    <section class="contacts">
         <h2>Контактная Информация</h2>
-        <p>Барбершоп &laquo;Бородинский&raquo;<br>
+        <p>
+            Барбершоп &laquo;Бородинский&raquo;<br>
             Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
             Телефон +7 (495) 666-02-66</p>
         <p>Время работы: ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
-        <a href="#">Как проехать</a>
-        <a href="#">Обратная связь</a>
+        <a href="#" class="button">Как проехать</a>
+        <a href="#" class="button">Обратная связь</a>
     </section>
     <section>
         <h2>Записаться</h2>
-
         <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
         <form action="#">
-            <input type="text" name="date" id="date" placeholder="Дата">
-            <input type="text" name="name" id="name" placeholder="Ваше имя">
-            <input type="text" name="time" id="time" placeholder="Время">
-            <input type="text" name="phone" id="phone" placeholder="Телефон">
-            <input type="submit" value="Отправить">
+            <input type="text" name="date" placeholder="Дата">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="time" placeholder="Время">
+            <input type="text" name="phone" placeholder="Телефон">
+            <input type="submit" value="Отправить" class="button button_size-x">
         </form>
     </section>
 </main>
-<footer>
-    <p>Барбершоп &laquo;Бородинский&raquo;<br>
+<footer class="footer">
+    <p class="address">
+        Барбершоп &laquo;Бородинский&raquo;<br>
         Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
         Д. 19/8
         <a href="#">Как нас найти?</a>
     </p>
     <span>Давайте дружить</span>
-    <ul>
-        <li><a href="#">V</a></li>
-        <li><a href="#">F</a></li>
-        <li><a href="#">I</a></li>
+    <ul class="social">
+        <li class="social__vk">
+            <a href="#">V</a>
+        </li>
+        <li class="social__fb">
+            <a href="#">F</a>
+        </li>
+        <li class="social__inst">
+            <a href="#">I</a>
+        </li>
     </ul>
-    <p>Разработано:
-        <a href="#">htmlacademy.ru</a>
+    <p class="developer">
+        <span class="developer_text">Разработано:</span>
+        <a href="#" class="button">htmlacademy.ru</a>
     </p>
 </footer>
 </body>

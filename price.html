@@ -7,84 +7,93 @@
 </head>
 <body>
 <header>
-    <a href="index.html"><img src="#" alt="Barbershop"></a>
-    <nav>
-        <a href="#">Информация</a>
-        <a href="#">Новости</a>
-        <a href="price.html">Прайс-лист</a>
-        <a href="shop.html">Магазин</a>
-        <a href="#">Контакты</a>
+    <a class="mini-logo" href="index.html">
+        <img class="mini-logo__img" src="#" alt="Barbershop">
+    </a>
+    <nav class="navigation">
+        <a class="navigation__item" href="#">Информация</a>
+        <a class="navigation__item" href="#">Новости</a>
+        <a class="navigation__item" href="price.html">Прайс-лист</a>
+        <a class="navigation__item-clicked" href="shop.html">Магазин</a>
+        <a class="navigation__item" href="#">Контакты</a>
     </nav>
-    <span>
-        <a href="#">Вход</a>
+    <span class="login">
+        <a class="login__link" href="#">Вход</a>
     </span>
-    <h1>Прайс-Лист</h1>
-    <ul>
-        <li>
-            <a href="index.html">Главная</a>
+    <h1 class="page-heading">Прайс-Лист</h1>
+    <ul class="reverse-navigation">
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="index.html">Главная</a>
         </li>
-        <li>
-            <a href="#">Прайст-Лист</a>
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="#">Прайст-Лист</a>
         </li>
     </ul>
 </header>
 <main>
-    <section>
-        <h2>Истинно мужская классика</h2>
-        <section>
-            <h3>Мы используем только лучшие средства:</h3>
-            <ul>
-                <li>Baxter of California</li>
-                <li>Mr Natty</li>
-                <li>Suavecito</li>
-                <li>Malin+Goetz</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Цены на услуги наших мастеров:</h3>
-            <table>
-                <tr>
-                    <td>Стрижка<td>
-                    <td>1500 Р.<td>
-                </tr>
-                <tr>
-                    <td>Стрижка Бороды<td>
-                    <td>500 Р.<td>
-                </tr>
-                <tr>
-                    <td>Накрутка Усов<td>
-                    <td>350 Р.<td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <h3>Несколько слов о нас:</h3>
-            <p>
-                Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это
-                уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
-            </p>
-            <p>
-                Наша мастерская расположена в центре города, поэтому сделать стрильную стрижку можно в любое время, даже в обеденный
-                перерыв. Здесь вы моете погрузиться в удобную для вас атомсферу, чувствовать себя комфортно и свободно!
-            </p>
-        </section>
+    <h2 class="main__heading">Истинно мужская классика</h2>
+    <section >
+        <h3>Мы используем только лучшие средства:</h3>
+        <ul>
+            <li>Baxter of California</li>
+            <li>Mr Natty</li>
+            <li>Suavecito</li>
+            <li>Malin+Goetz</li>
+        </ul>
+    </section>
+    <section class="price-list">
+        <h3 class="price-list__heading">Цены на услуги наших мастеров:</h3>
+        <table class="price-list__table">
+            <tr class="price-list__item">
+                <td class="price-list__name">Стрижка<td>
+                <td class="price-list__price">1500 Р.<td>
+            </tr>
+            <tr class="price-list__item">
+                <td class="price-list__name">Стрижка Бороды<td>
+                <td class="price-list__price">500 Р.<td>
+            </tr>
+            <tr class="price-list__item">
+                <td class="price-list__name">Накрутка Усов<td>
+                <td class="price-list__price">350 Р.<td>
+            </tr>
+        </table>
+    </section>
+    <section class="about-us">
+        <h3 class="about-us__heading">Несколько слов о нас:</h3>
+        <p class="about-us__item">
+            Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это
+            уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+        </p>
+        <p class="about-us__item">
+            Наша мастерская расположена в центре города, поэтому сделать стрильную стрижку можно в любое время, даже в обеденный
+            перерыв. Здесь вы моете погрузиться в удобную для вас атомсферу, чувствовать себя комфортно и свободно!
+        </p>
     </section>
 </main>
 <footer>
-    <p>Барбершоп &laquo;Бородинский&raquo;<br>
+    <p class="address">
+        Барбершоп &laquo;Бородинский&raquo;<br>
         Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
         Д. 19/8
-        <a href="#">Как нас найти?</a>
+        <a class="address__map" href="#">Как нас найти?</a>
     </p>
-    <span>Давайте дружить</span>
-    <ul>
-        <li><a href="#">V</a></li>
-        <li><a href="#">F</a></li>
-        <li><a href="#">I</a></li>
-    </ul>
-    <p>
-        <span>Разработано:</span>
-        <a href="#">htmlacademy.ru</a>
+    <p class="social">
+        <span class="social__heading">Давайте дружить</span>
+        <ul class="social__links">
+            <li class="social__link">
+                <a class="button" href="#">V</a>
+            </li>
+            <li class="social__link">
+                <a class="button" href="#">F</a>
+            </li>
+            <li class="social__link">
+                <a class="button" href="#">I</a>
+            </li>
+        </ul>
+    </p>
+    <p class="developer">
+        <span class="developer__heading">Разработано:</span>
+        <a class="button">htmlacademy.ru</a>
     </p>
 </footer>
 </body>

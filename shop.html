@@ -7,138 +7,160 @@
 </head>
 <body>
 <header>
-    <a href="index.html"><img src="#" alt="Barbershop"></a>
-    <nav>
-        <a href="#">Информация</a>
-        <a href="#">Новости</a>
-        <a href="price.html">Прайс-лист</a>
-        <a href="shop.html">Магазин</a>
-        <a href="#">Контакты</a>
+    <a class="mini-logo" href="index.html">
+        <img class="mini-logo__img" src="#" alt="Barbershop">
+    </a>
+    <nav class="navigation">
+        <a class="navigation__item" href="#">Информация</a>
+        <a class="navigation__item" href="#">Новости</a>
+        <a class="navigation__item" href="price.html">Прайс-лист</a>
+        <a class="navigation__item-clicked" href="shop.html">Магазин</a>
+        <a class="navigation__item" href="#">Контакты</a>
     </nav>
-    <span>
-        <a href="#">Вход</a>
+    <span class="login">
+        <a class="login__link" href="#">Вход</a>
     </span>
-    <h1>Средства для ухода</h1>
-    <ul>
-        <li>
-            <a href="index.html">Главная</a>
+    <h1 class="page-heading">Средства для ухода</h1>
+    <ul class="reverse-navigation">
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="index.html">Главная</a>
         </li>
-        <li>
-            <a href="price.html">Прайст-Лист</a>
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="price.html">Прайст-Лист</a>
         </li>
-        <li>
+        <li class="reverse-navigation__item">
             <a href="#">Средства для ухода</a>
         </li>
     </span>
 </header>
 <main>
-    <section>
-        <h2>Производители:</h2>
-        <form action="#">
-            <input type="checkbox" name="producer_1" value="baxter of california" checked>
-            <label for="producer_1">Baxter of California</label>
-            <input type="checkbox" name="producer_2" value="mr natty">
-            <label for="producer_2">Mr Natty</label>
-            <input type="checkbox" name="producer_3" value="suavecito" checked>
-            <label for="producer_3">Suavecito</label>
-            <input type="checkbox" name="producer_4" value="malin+goetz">
-            <label for="producer_4">Malin+Goetz</label>
-            <input type="checkbox" name="producer_5" value="murray`s">
-            <label for="producer_5">Murray`s</label>
-            <input type="checkbox" name="producer_6" value="american crew" checked>
-            <label for="producer_6">American Crew</label>
+    <section class="producers">
+        <h2 class="producers__heading">Производители:</h2>
+        <form class="producers__form" action="#">
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_1" value="baxter of california" checked>
+                <label class="producers__name" for="producer_1">Baxter of California</label>
+            </section>
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_2" value="mr natty">
+                <label class="producers__name" for="producer_2">Mr Natty</label>
+            </section>
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_3" value="suavecito" checked>
+                <label class="producers__name" for="producer_3">Suavecito</label>
+            </section>
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_4" value="malin+goetz">
+                <label class="producers__name" for="producer_4">Malin+Goetz</label>
+            </section>
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_5" value="murray`s">
+                <label class="producers__name" for="producer_5">Murray`s</label>
+            </section>
+            <section class="producers__item">
+                <input class="prorucers__check" type="checkbox" name="producer_6" value="american crew" checked>
+                <label class="producers__name" for="producer_6">American Crew</label>
+            </section>
         </form>
     </section>
-    <section>
-        <h2>Группы товаров:</h2>
-        <form action="#">
-            <input type="radio" name="products">
-            <label for="product_1">Бритвенные принадлежности</label>
-            <input type="radio" name="products" checked>
-            <label for="product_2">Средства для ухода</label>
-            <input type="radio" name="products">
-            <label for="product_3">Аксессуары</label>
+    <section class="product-groups">
+        <h2 class="product-groups__heading">Группы товаров:</h2>
+        <form class="product-groups__form" action="#">
+            <section class="product-groups__group">
+                <input class="product-groups__radio" type="radio" name="products">
+                <label class="priduct-groups__name" for="product_1">Бритвенные принадлежности</label>
+            </section>
+            <section class="product-groups__group">
+                <input class="product-groups__radio" type="radio" name="products" checked>
+                <label class="priduct-groups__name"  for="product_2">Средства для ухода</label>
+            </section>
+            <section class="product-groups__group">
+                <input class="product-groups__radio" type="radio" name="products">
+                <label class="priduct-groups__name"  for="product_3">Аксессуары</label>
+            </section>
         </form>
     </section>
-    <section>
-        <article>
-            <a href="item.html">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
-                <span>Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></span>
+    <section class="products">
+        <article class="product">
+            <a class="product__link" href="item.html">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
+                <span class="product__name">Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></span>
             </a>
-            <span>2 900 РУБ.</span>
-            <a href="#">Купить</a>
+            <span class="product__price">2 900 РУБ.</span>
+            <a class="button" href="#">Купить</a>
         </article>
-        <article>
-            <a href="#">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Увлажняющий кондиционер">
-                <span>Увлажняющий кондиционер <span>&laquo;Baxter of California&raquo;</span></span>
+        <article class="product">
+            <a class="product__link" href="#">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Увлажняющий кондиционер">
+                <span class="product__name">Увлажняющий кондиционер <span>&laquo;Baxter of California&raquo;</span></span>
             </a>
-            <span>750 РУБ.</span>
-            <a href="#">Купить</a>
-        </article>
+            <span class="product__price">750 РУБ.</span>
+            <a class="button" href="#">Купить</a>
+        </article class="product">
         <article>
-            <a href="#">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
-                <span>Гель для волос <span>&laquo;Suavecito&raquo;</span></span>
+            <a class="product__link" href="#">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
+                <span class="product__name">Гель для волос <span>&laquo;Suavecito&raquo;</span></span>
             </a>
-            <span>290 РУБ.</span>
-            <a href="#">Купить</a>
+            <span class="product__price">290 РУБ.</span>
+            <a class="button" href="#">Купить</a>
         </article>
-        <article>
-            <a href="#">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Глина для укладки волос">
-                <span>Глина для укладки волос <span>&laquo;American Crew&raquo;</span></span>
+        <article class="product">
+            <a class="product__link" href="#">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Глина для укладки волос">
+                <span class="product__name">Глина для укладки волос <span>&laquo;American Crew&raquo;</span></span>
             </a>
-            <span>500 РУБ.</span>
-            <a href="#">Купить</a>
+            <span class="product__price">500 РУБ.</span>
+            <a class="button" href="#">Купить</a>
         </article>
-        <article>
-            <a href="#">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
-                <span>Гель для волос <span>&laquo;American Crew&raquo;</span><span>
+        <article class="product">
+            <a class="product__link" href="#">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
+                <span class="product__name">Гель для волос <span>&laquo;American Crew&raquo;</span><span>
             </a>
-            <span>300 РУБ.</span>1
-            <a href="#">Купить</a>
+            <span class="product__price">300 РУБ.</span>1
+            <a class="button" href="#">Купить</a>
         </article>
-        <article>
-            <a href="#">
-                <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для бритья">
-                <span>Набор для бритья <span>&laquo;Baxter of California&raquo;</span></span>
+        <article class="product">
+            <a class="product__link" href="#">
+                <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для бритья">
+                <span class="product__name">Набор для бритья <span>&laquo;Baxter of California&raquo;</span></span>
             </a>
-            <span>3 900 РУБ.</span>
-            <a href="#">Купить</a>
+            <span class="product__price">3 900 РУБ.</span>
+            <a class="button" href="#">Купить</a>
         </article>
-        <nav>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
+        <nav class="page-navigation">
+            <a class="page-navigation__item" href="#">1</a>
+            <a class="page-navigation__item" href="#">2</a>
+            <a class="page-navigation__item" href="#">3</a>
+            <a class="page-navigation__item" href="#">4</a>
         </nav>
     </section>
 </main>
 <footer>
-    <p>
+    <p class="address">
         Барбершоп &laquo;Бородинский&raquo;<br>
         Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
         Д. 19/8
-        <a href="#">Как нас найти?</a>
+        <a class="address__map" href="#">Как нас найти?</a>
     </p>
-    <span>Давайте дружить</span>
-    <ul>
-        <li>
-            <a href="#">V</a>
-        </li>
-        <li>
-            <a href="#">F</a>
-        </li>
-        <li>
-            <a href="#">I</a>
-        </li>
-    </ul>
-    <p>
-        <span>Разработано:</span>
-        <a href="#">htmlacademy.ru</a>
+    <p class="social">
+        <span class="social__heading">Давайте дружить</span>
+        <ul class="social__links">
+            <li class="social__link">
+                <a class="button" href="#">V</a>
+            </li>
+            <li class="social__link">
+                <a class="button" href="#">F</a>
+            </li>
+            <li class="social__link">
+                <a class="button" href="#">I</a>
+            </li>
+        </ul>
+    </p>
+    <p class="developer">
+        <span class="developer__heading">Разработано:</span>
+        <a class="button">htmlacademy.ru</a>
     </p>
 </footer>
 </body>

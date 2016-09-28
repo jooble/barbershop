@@ -31,34 +31,34 @@
         <li class="reverse-navigation__item">
             <a href="#">Средства для ухода</a>
         </li>
-    </span>
+    </ul>
 </header>
 <main>
     <section class="producers">
         <h2 class="producers__heading">Производители:</h2>
         <form class="producers__form" action="#">
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_1" value="baxter of california" checked>
+                <input class="prorucers__check" id="producer_1" type="checkbox" name="producer_1" value="baxter of california" checked>
                 <label class="producers__name" for="producer_1">Baxter of California</label>
             </article>
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_2" value="mr natty">
+                <input class="prorucers__check" id="producer_2"  type="checkbox" name="producer_2" value="mr natty">
                 <label class="producers__name" for="producer_2">Mr Natty</label>
             </article>
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_3" value="suavecito" checked>
+                <input class="prorucers__check" id="producer_3"  type="checkbox" name="producer_3" value="suavecito" checked>
                 <label class="producers__name" for="producer_3">Suavecito</label>
             </article>
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_4" value="malin+goetz">
+                <input class="prorucers__check" id="producer_4"  type="checkbox" name="producer_4" value="malin+goetz">
                 <label class="producers__name" for="producer_4">Malin+Goetz</label>
             </article>
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_5" value="murray`s">
+                <input class="prorucers__check" id="producer_5"  type="checkbox" name="producer_5" value="murray`s">
                 <label class="producers__name" for="producer_5">Murray`s</label>
             </article>
             <article class="producers__item">
-                <input class="prorucers__check" type="checkbox" name="producer_6" value="american crew" checked>
+                <input class="prorucers__check" id="producer_6"  type="checkbox" name="producer_6" value="american crew" checked>
                 <label class="producers__name" for="producer_6">American Crew</label>
             </article>
         </form>
@@ -67,16 +67,16 @@
         <h2 class="product-groups__heading">Группы товаров:</h2>
         <form class="product-groups__form" action="#">
             <article class="product-groups__group">
-                <input class="product-groups__radio" type="radio" name="products">
+                <input class="product-groups__radio" id="product_1"  type="radio" name="products">
                 <label class="priduct-groups__name" for="product_1">Бритвенные принадлежности</label>
             </article>
             <article class="product-groups__group">
-                <input class="product-groups__radio" type="radio" name="products" checked>
-                <label class="priduct-groups__name"  for="product_2">Средства для ухода</label>
+                <input class="product-groups__radio" id="product_2" type="radio" name="products" checked>
+                <label class="priduct-groups__name" for="product_2">Средства для ухода</label>
             </article>
             <article class="product-groups__group">
-                <input class="product-groups__radio" type="radio" name="products">
-                <label class="priduct-groups__name"  for="product_3">Аксессуары</label>
+                <input class="product-groups__radio" id="product_3" type="radio" name="products">
+                <label class="priduct-groups__name" for="product_3">Аксессуары</label>
             </article>
         </form>
     </section>
@@ -96,8 +96,8 @@
             </a>
             <span class="product__price">750 РУБ.</span>
             <a class="button" href="#">Купить</a>
-        </article class="product">
-        <article>
+        </article>
+        <article class="product">
             <a class="product__link" href="#">
                 <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
                 <span class="product__name">Гель для волос <span>&laquo;Suavecito&raquo;</span></span>
@@ -116,9 +116,9 @@
         <article class="product">
             <a class="product__link" href="#">
                 <img class="product__img" src="https://placehold.it/200x200" width="200" height="200" alt="Гель для волос">
-                <span class="product__name">Гель для волос <span>&laquo;American Crew&raquo;</span><span>
+                <span class="product__name">Гель для волос <span>&laquo;American Crew&raquo;</span></span>
             </a>
-            <span class="product__price">300 РУБ.</span>1
+            <span class="product__price">300 РУБ.</span>
             <a class="button" href="#">Купить</a>
         </article>
         <article class="product">
@@ -144,7 +144,7 @@
         Д. 19/8
         <a class="address__map" href="#">Как нас найти?</a>
     </p>
-    <p class="social">
+    <section class="social">
         <span class="social__heading">Давайте дружить</span>
         <ul class="social__links">
             <li class="social__link--vk">
@@ -157,7 +157,7 @@
                 <a class="button" href="#">I</a>
             </li>
         </ul>
-    </p>
+    </section>
     <p class="developer">
         <span class="developer__heading">Разработано:</span>
         <a class="button">htmlacademy.ru</a>

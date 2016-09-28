@@ -7,89 +7,91 @@
 </head>
 <body>
 <header>
-    <a href="index.html">
-        <img src="#" alt="Barbershop">
+    <a class="mini-logo" href="index.html">
+        <img class="mini-logo__img" src="#" alt="Barbershop">
     </a>
-    <nav>
-        <a href="#">Информация</a>
-        <a href="#">Новости</a>
-        <a href="price.html">Прайс-лист</a>
-        <a href="shop.html">Магазин</a>
-        <a href="#">Контакты</a>
+    <nav class="navigation">
+        <a class="navigation__item" href="#">Информация</a>
+        <a class="navigation__item" href="#">Новости</a>
+        <a class="navigation__item" href="price.html">Прайс-лист</a>
+        <a class="navigation__item--clicked" href="shop.html">Магазин</a>
+        <a class="navigation__item" href="#">Контакты</a>
     </nav>
-    <span>
-        <a href="#">Вход</a>
+    <span class="login">
+        <a class="login__link" href="#">Вход</a>
     </span>
-    <h1>Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></h1>
-    <ul>
-        <li>
-            <a href="index.html">Главная</a>
+    <h1 class="page-heading">Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></h1>
+    <ul class="reverse-navigation">
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="index.html">Главная</a>
         </li>
-        <li>
-            <a href="#">Магазин</a>
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="#">Магазин</a>
+        </li class="reverse-navigation__item">
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="shop.html">Средства для ухода</a> 
         </li>
-        <li>
-            <a href="shop.html">Средства для ухода</a> 
-        </li>
-        <li>
-            <a href="#">Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></a>
+        <li class="reverse-navigation__item">
+            <a class="reverse-navigation__link" href="#">Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></a>
         </li>
     </ul>
 </header>
 <main>
-    <section>
-        <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
-        <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
-        <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
-        <img src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
+    <section class="gallery">
+        <img class="gallery__item" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
+        <img class="gallery__item" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
+        <img class="gallery__item" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
+        <img class="gallery__item" src="https://placehold.it/200x200" width="200" height="200" alt="Набор для путешествий">
     </section>
-    <section>
-        <section>
-            <span>Есть в наличии</span>
-            <span>Артикул: DEXTER-AE</span>
-            <p>
+    <section class="product-description">
+        <section class="description">
+            <span class="description__availability">Есть в наличии</span>
+            <span class="description__vendor-code">Артикул: DEXTER-AE</span>
+            <p class="description__text">
             TRABEL KIT - Необходимый аксессуар во время любого путешествия. 
             В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки
             или отдыха. Средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также 
             может стать отличным подарком.
             </p>
-            <span>3 900 РУБ.</span>
-            <a href="#">Купить</a>
+            <span class="description__price">3 900 РУБ.</span>
+            <a class="button" href="#">Купить</a>
         </section>
-        <section>
-            <span>В набор входят:</span>
-            <ul>
-                <li>Средство для умывания (50 мл)</li>
-                <li>Увлажняющий крем (50 мл)</li>
-                <li>Крем для бритья (50 мл)</li>
-                <li>Крем после бритья, шампунь (50 мл)</li>
-                <li>Удобная кожаная косметичка</li>
+        <section class="composition">
+            <span class="composition__heading">В набор входят:</span>
+            <ul class="composition__list">
+                <li class="composition__item">Средство для умывания (50 мл)</li>
+                <li class="composition__item">Увлажняющий крем (50 мл)</li>
+                <li class="composition__item">Крем для бритья (50 мл)</li>
+                <li class="composition__item">Крем после бритья, шампунь (50 мл)</li>
+                <li class="composition__item">Удобная кожаная косметичка</li>
             </ul>
         </section>
     </section>
 </main>
 <footer>
-    <p>
+    <p class="address">
         Барбершоп &laquo;Бородинский&raquo;<br>
         Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
         Д. 19/8
-        <a href="#">Как нас найти?</a>
+        <a class="address__map" href="#">Как нас найти?</a>
     </p>
-    <span>Давайте дружить</span>
-    <ul>
-        <li>
-            <a href="#">V</a>
-        </li>
-        <li>
-            <a href="#">F</a>
-        </li>
-        <li>
-            <a href="#">I</a>
-        </li>
-    </ul>
-    <p>
-        <span>Разработано:</span>
-        <a href="#">htmlacademy.ru</a>
+    <p class="social">
+        <span class="social__heading">Давайте дружить</span>
+        <ul class="social__links">
+            <li class="social__link--vk">
+                <a class="button" href="#">V</a>
+            </li>
+            <li class="social__link--fb">
+                <a class="button" href="#">F</a>
+            </li>
+            <li class="social__link--inst">
+                <a class="button" href="#">I</a>
+            </li>
+        </ul>
+    </p>
+    <p class="developer">
+        <span class="developer__heading">Разработано:</span>
+        <a class="button">htmlacademy.ru</a>
     </p>
 </footer>
 </body>

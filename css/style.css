@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    width: 900px;
+}
+
+.news {
+    width: 450px;
+}
+
+.gallery {
+    width: 450px;
+}
+
+.contact-information {
+    width: 450px;
+}
+
+.record {
+    width: 450px;
+}

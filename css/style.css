@@ -15,6 +15,10 @@ footer {
     width: 900px;
 }
 
+.advantages {
+    display: flex;
+}
+
 .news {
     width: 450px;
 }

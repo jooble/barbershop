@@ -87,7 +87,6 @@
     margin: auto;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
 }
 
 .developer {

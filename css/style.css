@@ -1,6 +1,10 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
 .main-header {
     display: flex;
-    width: 900px;
     flex-flow: row wrap;
 }
 
@@ -42,7 +46,6 @@
 
 .main {
     display: flex;
-    width: 900px;
     flex-flow: row wrap;
 }
 
@@ -70,7 +73,6 @@
 
 .footer {
     display: flex;
-    width: 900px;
     justify-content: space-between;
 }
 

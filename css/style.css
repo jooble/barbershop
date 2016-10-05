@@ -73,3 +73,24 @@
     width: 900px;
     justify-content: space-between;
 }
+
+.social {
+    display: flex;
+    flex-flow: column;
+}
+
+.social__heading {
+    margin: auto;
+}
+
+.social__links {
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.developer {
+    display: flex;
+    flex-flow: column;
+}

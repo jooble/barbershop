@@ -27,6 +27,19 @@
     display: flex;
 }
 
+.advantages-item {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.advantages-item__heading {
+    margin: auto;
+}
+
+.advantages-item__text {
+    margin: auto;
+}
+
 .main {
     display: flex;
     width: 900px;
@@ -40,6 +53,7 @@
 
 .gallery {
     margin: auto;
+    width: 450px;
 }
 
 .contact-information {

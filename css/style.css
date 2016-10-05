@@ -1,36 +1,61 @@
-header {
+.main-header {
     display: flex;
     width: 900px;
-    flex-direction: column;
+    flex-flow: row wrap;
 }
 
-main {
-    display: flex;
-    width: 900px;
-    flex-wrap: wrap;
+.navigation {
+    margin: auto;
 }
 
-footer {
+.login {
+    margin: auto;
+}
+
+.logo {
     display: flex;
+    margin: auto;
     width: 900px;
+}
+
+.logo__img {
+    margin: auto;
 }
 
 .advantages {
+    margin: auto;
     display: flex;
 }
 
+.main {
+    display: flex;
+    width: 900px;
+    flex-flow: row wrap;
+}
+
 .news {
+    margin: auto;
     width: 450px;
 }
 
 .gallery {
-    width: 450px;
+    margin: auto;
 }
 
 .contact-information {
+    margin: auto;
     width: 450px;
 }
 
 .record {
+    margin: auto;
     width: 450px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
 }

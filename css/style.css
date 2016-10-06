@@ -154,15 +154,15 @@ li {
 	margin: auto 0;
 	display: flex;
 	flex-flow: column;
-	align-content: center;
+	align-items: flex-end;
 	min-width: 300px;
 	min-height: 130px;
 }
 
 .developer__heading {
-	margin: 10px auto;
+	margin: 10px 0;
 }
 
 .developer__link {
-	margin: 10px auto;
+	margin: 10px 0;
 }

@@ -73,22 +73,24 @@ li {
 }
 
 .news {
+	margin: 10px 0;
 	width: 450px;
 	min-height: 400px;
 }
 
 .gallery {
-	margin: auto;
+	margin: 10px 0;
 	width: 450px;
 	min-height: 400px;
 }
 
 .contact-information {
+	margin: 10px 0;
 	width: 450px;
-	min-height: 400px;
 }
 
 .record {
+	margin: 10px 0;
 	display: flex;
 	flex-flow: column nowrap;
 	width: 450px;
@@ -101,30 +103,44 @@ li {
 }
 
 .record__input {
-	margin: 10px 10px;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 .footer {
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	min-height: 190px;
 }
 
 .address {
+	display: flex;
+	align-content: center;
 	margin: auto 0;
+	min-width: 300px;
+	min-height: 130px;
+}
+
+.address__text {
+	min-width: 300px;
 }
 
 .social {
 	margin: auto 0;
 	display: flex;
+	align-content: center;
 	flex-flow: column;
+	min-width: 300px;
+	min-height: 130px;
 }
 
 .social__heading {
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 .social__links {
+	margin: 10px auto;
 	display: flex;
 	flex-flow: row nowrap;
 }
@@ -138,4 +154,15 @@ li {
 	margin: auto 0;
 	display: flex;
 	flex-flow: column;
+	align-content: center;
+	min-width: 300px;
+	min-height: 130px;
+}
+
+.developer__heading {
+	margin: 10px auto;
+}
+
+.developer__link {
+	margin: 10px auto;
 }

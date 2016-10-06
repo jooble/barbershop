@@ -79,17 +79,18 @@
 					Барбершоп &laquo;Бородинский&raquo;<br>
 					Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
 					Телефон +7 (495) 666-02-66</p>
-				<p>Время работы: ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
+				<p class="contact-information__working-hours">Время работы:<br>
+					ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
 				<a class="button" href="#">Как проехать</a>
 				<a class="button" href="#">Обратная связь</a>
 			</section>
 			<section class="record">
 				<h2 class="record__heading">Записаться</h2>
-				<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
+				<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
 				<form class="record__form" action="#">
 					<input class="record__input" type="text" name="date" placeholder="Дата">
-					<input class="record__input" type="text" name="name" placeholder="Ваше имя">
 					<input class="record__input" type="text" name="time" placeholder="Время">
+					<input class="record__input" type="text" name="name" placeholder="Ваше имя">
 					<input class="record__input" type="text" name="phone" placeholder="Телефон">
 					<input class="record__input" type="submit" value="Отправить">
 				</form>
@@ -97,11 +98,13 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<p class="address">
-			Барбершоп &laquo;Бородинский&raquo;<br>
-			Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
-			<a class="address__map" href="#">Как нас найти?</a><br>
-			Телефон +7 (495) 666-02-66</p>
+		<section class="address">
+			<p class="address__text">
+				Барбершоп &laquo;Бородинский&raquo;<br>
+				Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
+				<a class="address__map" href="#">Как нас найти?</a><br>
+				Телефон +7 (495) 666-02-66</p>
+		</section>
 		<section class="social">
 			<span class="social__heading">Давайте дружить!</span>
 			<ul class="social__links">

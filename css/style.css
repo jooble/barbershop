@@ -1,25 +1,47 @@
+li {
+	list-style-type: none;
+}
+
 .container {
 	width: 900px;
 	margin: 0 auto;
 }
 
-.main-header {
+.header {
 	display: flex;
 	flex-flow: row wrap;
+	min-height: 70px;
 }
 
 .navigation {
+	display: flex;
+	justify-content: space-between;
 	margin: auto;
+	min-width: 500px;
 }
 
 .login {
+	display: flex;
+	justify-content: flex-end;
 	margin: auto;
+	min-width: 400px;
+}
+
+.main {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.main-header {
+	display: flex;
+	flex-flow: column nowrap;
 }
 
 .logo {
 	display: flex;
 	margin: auto;
-	width: 900px;
+	min-width: 900px;
+	min-height: 290px;
 }
 
 .logo__img {
@@ -27,8 +49,9 @@
 }
 
 .advantages {
-	margin: auto;
 	display: flex;
+	margin: auto;
+	min-height: 240px;
 }
 
 .advantages-item {
@@ -37,61 +60,82 @@
 }
 
 .advantages-item__heading {
-	margin: auto;
+	margin: 10px auto;
 }
 
 .advantages-item__text {
-	margin: auto;
+	margin: 10px auto;
 }
 
-.main {
+.main-content {
 	display: flex;
 	flex-flow: row wrap;
 }
 
 .news {
-	margin: auto;
 	width: 450px;
+	min-height: 400px;
 }
 
 .gallery {
 	margin: auto;
 	width: 450px;
+	min-height: 400px;
 }
 
 .contact-information {
-	margin: auto;
 	width: 450px;
+	min-height: 400px;
 }
 
 .record {
-	margin: auto;
+	display: flex;
+	flex-flow: column nowrap;
 	width: 450px;
+	min-height: 400px;
+}
+
+.record__form {
 	display: flex;
 	flex-flow: row wrap;
+}
+
+.record__input {
+	margin: 10px 10px;
 }
 
 .footer {
 	display: flex;
 	justify-content: space-between;
+	min-height: 190px;
+}
+
+.address {
+	margin: auto 0;
 }
 
 .social {
+	margin: auto 0;
 	display: flex;
 	flex-flow: column;
 }
 
 .social__heading {
-	margin: auto;
+	margin: 0 auto;
 }
 
 .social__links {
-	margin: auto;
 	display: flex;
 	flex-flow: row nowrap;
 }
 
+.social__link {
+	min-width: 40px;
+	min-height: 40px;
+}
+
 .developer {
+	margin: auto 0;
 	display: flex;
 	flex-flow: column;
 }

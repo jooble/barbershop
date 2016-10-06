@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="container">
-	<header class="main-header">
+	<header class="header">
 		<nav class="navigation">
 			<a class="navigation__item" href="#">Информация</a>
 			<a class="navigation__item" href="#news">Новости</a>
@@ -16,75 +16,84 @@
 			<a class="navigation__item" href="shop.html">Магазин</a>
 			<a class="navigation__item" href="#contacts">Контакты</a>
 		</nav>
-<span class="login">
-        <a class="login__link" href="#">Вход</a>
-    </span>
-		<section class="logo">
-			<img class="logo__img" src="img/logo/logo.png" width="368" height="204" alt="logo">
-		</section>
-		<section class="advantages">
-			<section class="advantages-item">
-				<h2 class="advantages-item__heading">Быстро</h2>
-				<p class="advantages-item__text">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы &mdash;
-					и вы счастливый обладатель стильной стрижки-минутки!</p>
-			</section>
-			<section class="advantages-item">
-				<h2 class="advantages-item__heading">Круто</h2>
-				<p class="advantages-item__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или
-					кино!</p>
-			</section>
-			<section class="advantages-item">
-				<h2 class="advantages-item__heading">Дорого</h2>
-				<p class="advantages-item__text">Наши мастера &mdash; профессионалы своего дела и не могут стоить
-					дешево. К тому же, разве цена не дает определенный статус?</p>
-			</section>
-		</section>
+		<span class="login">
+        	<a class="login__link" href="#">Вход</a>
+    	</span>
 	</header>
 	<main class="main">
-		<section class="news">
-			<a name="news">
-				<h2 class="news__heading">Новости</h2>
-			</a>
-			<article class="news-item">
-				<p class="news-item__text">Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во
-					время стрижки</p>
-				<span class="news-item__date">11 января</span>
-			</article>
-			<article class="news-item">
-				<p class="news-item__text">В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель
-					множества титулов и наград пополнил наши стройные ряды.</p>
-				<span class="news-item__date">18 января</span>
-			</article>
-			<a class="button" href="#">Все новости</a>
+		<section class="main-header">
+			<section class="logo">
+				<img class="logo__img" src="img/logo/logo.png" width="368" height="204" alt="logo">
+			</section>
+			<section class="advantages">
+				<section class="advantages-item">
+					<h2 class="advantages-item__heading">Быстро</h2>
+					<p class="advantages-item__text">Мы делаем свою работу быстро! Два часа пролетят незаметно и
+						вы &mdash;
+						и вы счастливый обладатель стильной стрижки-минутки!</p>
+				</section>
+				<section class="advantages-item">
+					<h2 class="advantages-item__heading">Круто</h2>
+					<p class="advantages-item__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола
+						или
+						кино!</p>
+				</section>
+				<section class="advantages-item">
+					<h2 class="advantages-item__heading">Дорого</h2>
+					<p class="advantages-item__text">Наши мастера &mdash; профессионалы своего дела и не могут стоить
+						дешево. К тому же, разве цена не дает определенный статус?</p>
+				</section>
+			</section>
 		</section>
-		<section class="gallery">
-			<h2 class="gallery__heading">Фотогалерея</h2>
-			<img class="gallery__photo" src="img/gallery-1.jpg" alt="gallery">
-			<a class="button" href="#">Назад</a>
-			<a class="button" href="#">Вперед</a>
-		</section>
-		<section class="contact-information">
-			<a name="contacts">
-				<h2 class="contact-information__heading">Контактная Информация</h2>
-			</a>
-			<p class="contact-information__address">
-				Барбершоп &laquo;Бородинский&raquo;<br>
-				Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
-				Телефон +7 (495) 666-02-66</p>
-			<p>Время работы: ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
-			<a class="button" href="#">Как проехать</a>
-			<a class="button" href="#">Обратная связь</a>
-		</section>
-		<section class="record">
-			<h2 class="record__heading">Записаться</h2>
-			<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
-			<form class="record__form" action="#">
-				<input class="record__input" type="text" name="date" placeholder="Дата">
-				<input class="record__input" type="text" name="name" placeholder="Ваше имя">
-				<input class="record__input" type="text" name="time" placeholder="Время">
-				<input class="record__input" type="text" name="phone" placeholder="Телефон">
-				<input class="record__input" type="submit" value="Отправить">
-			</form>
+		<section class="main-content">
+			<section class="news">
+				<a name="news">
+					<h2 class="news__heading">Новости</h2>
+				</a>
+				<article class="news-item">
+					<p class="news-item__text">Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во
+						время стрижки</p>
+					<span class="news-item__date">11 января</span>
+				</article>
+				<article class="news-item">
+					<p class="news-item__text">В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец,
+						обладатель
+						множества титулов и наград пополнил наши стройные ряды.</p>
+					<span class="news-item__date">18 января</span>
+				</article>
+				<a class="button" href="#">Все новости</a>
+			</section>
+			<section class="gallery">
+				<h2 class="gallery__heading">Фотогалерея</h2>
+				<img class="gallery__photo" src="img/gallery-1.jpg" alt="gallery">
+				<section class="gallery__navigation">
+					<a class="button" href="#">Назад</a>
+					<a class="button" href="#">Вперед</a>
+				</section>
+			</section>
+			<section class="contact-information">
+				<a name="contacts">
+					<h2 class="contact-information__heading">Контактная Информация</h2>
+				</a>
+				<p class="contact-information__address">
+					Барбершоп &laquo;Бородинский&raquo;<br>
+					Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
+					Телефон +7 (495) 666-02-66</p>
+				<p>Время работы: ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
+				<a class="button" href="#">Как проехать</a>
+				<a class="button" href="#">Обратная связь</a>
+			</section>
+			<section class="record">
+				<h2 class="record__heading">Записаться</h2>
+				<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
+				<form class="record__form" action="#">
+					<input class="record__input" type="text" name="date" placeholder="Дата">
+					<input class="record__input" type="text" name="name" placeholder="Ваше имя">
+					<input class="record__input" type="text" name="time" placeholder="Время">
+					<input class="record__input" type="text" name="phone" placeholder="Телефон">
+					<input class="record__input" type="submit" value="Отправить">
+				</form>
+			</section>
 		</section>
 	</main>
 	<footer class="footer">
@@ -92,10 +101,10 @@
 			Барбершоп &laquo;Бородинский&raquo;<br>
 			Адрес: Г. Санкт-Петербург, Б. Конюшенная,<br>
 			Д. 19/8
-			<a class="address__map" href="#">Как нас найти?</a>
-		</p>
+			<a class="address__map" href="#">Как нас найти?</a><br>
+			Телефон +7 (495) 666-02-66</p>
 		<section class="social">
-			<span class="social__heading">Давайте дружить</span>
+			<span class="social__heading">Давайте дружить!</span>
 			<ul class="social__links">
 				<li class="social__link social__link--vk">
 					<a class="button" href="#">V</a>
@@ -110,7 +119,7 @@
 		</section>
 		<p class="developer">
 			<span class="developer__heading">Разработано:</span>
-			<a class="button">htmlacademy.ru</a>
+			<a class="developer__link">htmlacademy.ru</a>
 		</p>
 	</footer>
 </div>

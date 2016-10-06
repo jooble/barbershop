@@ -1,97 +1,97 @@
 .container {
-    width: 900px;
-    margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
 }
 
 .main-header {
-    display: flex;
-    flex-flow: row wrap;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .navigation {
-    margin: auto;
+	margin: auto;
 }
 
 .login {
-    margin: auto;
+	margin: auto;
 }
 
 .logo {
-    display: flex;
-    margin: auto;
-    width: 900px;
+	display: flex;
+	margin: auto;
+	width: 900px;
 }
 
 .logo__img {
-    margin: auto;
+	margin: auto;
 }
 
 .advantages {
-    margin: auto;
-    display: flex;
+	margin: auto;
+	display: flex;
 }
 
 .advantages-item {
-    display: flex;
-    flex-flow: column nowrap;
+	display: flex;
+	flex-flow: column nowrap;
 }
 
 .advantages-item__heading {
-    margin: auto;
+	margin: auto;
 }
 
 .advantages-item__text {
-    margin: auto;
+	margin: auto;
 }
 
 .main {
-    display: flex;
-    flex-flow: row wrap;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .news {
-    margin: auto;
-    width: 450px;
+	margin: auto;
+	width: 450px;
 }
 
 .gallery {
-    margin: auto;
-    width: 450px;
+	margin: auto;
+	width: 450px;
 }
 
 .contact-information {
-    margin: auto;
-    width: 450px;
+	margin: auto;
+	width: 450px;
 }
 
 .record {
-    margin: auto;
-    width: 450px;
-    display: flex;
-    flex-flow: row wrap;
+	margin: auto;
+	width: 450px;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .social {
-    display: flex;
-    flex-flow: column;
+	display: flex;
+	flex-flow: column;
 }
 
 .social__heading {
-    margin: auto;
+	margin: auto;
 }
 
 .social__links {
-    margin: auto;
-    display: flex;
-    flex-flow: row nowrap;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
 }
 
 .developer {
-    display: flex;
-    flex-flow: column;
+	display: flex;
+	flex-flow: column;
 }

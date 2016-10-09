@@ -1,161 +1,91 @@
 .container {
 	width: 900px;
 	margin: 0 auto;
-}
-
-.header {
 	display: flex;
 	flex-flow: row wrap;
-	min-height: 70px;
 	justify-content: space-between;
+}
+/* header */
+.page-header {
+	min-height: 70px;
 }
 
 .navigation {
-	display: flex;
-	margin: auto 0;
+	align-self: flex-start;
 }
 
 .login {
-	display: flex;
-	justify-content: flex-end;
-	margin: auto 0;
+	align-self: flex-end;
 }
 
-.main {
-	display: flex;
-	flex-flow: column nowrap;
-}
+/* main-top */
 
-.main-top {
+.page-main__top {
 	display: flex;
 	flex-flow: column nowrap;
 }
 
 .logo {
 	display: flex;
-	margin: auto;
-	min-width: 900px;
-	min-height: 290px;
 }
 
 .logo__img {
-	margin: auto;
+	margin: 0 auto;
 }
 
 .advantages {
 	display: flex;
-	margin: auto;
-	min-height: 240px;
+	flex-flow: row nowrap;
 }
 
 .advantages-item {
-	display: flex;
-	flex-flow: column nowrap;
+	width: 300px;
 }
 
-.advantages-item__heading {
-	margin: 10px auto;
-}
+/* main-content */
 
-.advantages-item__text {
-	margin: 10px auto;
-}
-
-.main-content {
+.page-main__content {
 	display: flex;
 	flex-flow: row wrap;
 }
 
 .news {
-	margin: 10px 0;
 	width: 450px;
-	min-height: 400px;
 }
 
 .gallery {
-	margin: 10px 0;
 	width: 450px;
-	min-height: 400px;
 }
 
-.contact-information {
-	margin: 10px 0;
+.contacts {
 	width: 450px;
-	min-height: 400px;
 }
 
 .record {
-	margin: 10px 0;
-	display: flex;
-	flex-flow: column nowrap;
 	width: 450px;
-	min-height: 400px;
 }
 
-.record__form {
-	display: flex;
-	flex-flow: row wrap;
-}
+/* footer */
 
-.record__input {
-	margin-top: 20px;
-	margin-right: 20px;
-}
-
-.footer {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
+.page-footer {
 	min-height: 190px;
 }
 
-.address {
-	display: flex;
-	align-content: center;
-	margin: auto 0;
-	min-height: 130px;
-}
-
-.address__text {
-	min-width: 300px;
+address {
+	margin: 0;
 }
 
 .social {
-	margin: auto 0;
-	display: flex;
-	align-content: center;
-	flex-flow: column;
-	min-height: 130px;
-}
-
-.social__heading {
-	margin: 10px auto;
+	margin: 0;
 }
 
 .social__links {
 	list-style-type: none;
-	margin: 10px auto;
 	display: flex;
-	flex-flow: row nowrap;
-}
-
-.social__link {
-	min-width: 40px;
-	min-height: 40px;
 }
 
 .developer {
-	margin: auto 0;
+	margin: 0;
 	display: flex;
 	flex-flow: column;
-	align-items: flex-end;
-	min-height: 130px;
-}
-
-.developer__heading {
-	margin: 10px 0;
-}
-
-.developer__link {
-	margin: 10px 0;
 }

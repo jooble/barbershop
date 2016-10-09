@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-	<header class="header">
+<header class="page-header">
+	<div class="container">
 		<nav class="navigation">
 			<a class="navigation__item" href="#">Информация</a>
 			<a class="navigation__item" href="#news">Новости</a>
@@ -16,12 +16,14 @@
 			<a class="navigation__item" href="shop.html">Магазин</a>
 			<a class="navigation__item" href="#contacts">Контакты</a>
 		</nav>
-		<span class="login">
-        	<a class="login__link" href="#">Вход</a>
-    	</span>
-	</header>
-	<main class="main">
-		<section class="main-top">
+		<section class="login">
+			<a class="login__link" href="#">Вход</a>
+		</section>
+	</div>
+</header>
+<main class="page-main">
+	<div class="container">
+		<section class="page-main__top">
 			<section class="logo">
 				<img class="logo__img" src="img/logo/logo.png" width="368" height="204" alt="logo">
 			</section>
@@ -44,7 +46,7 @@
 				</section>
 			</section>
 		</section>
-		<section class="main-content">
+		<section class="page-main__content">
 			<section class="news">
 				<a name="news">
 					<h2 class="news__heading">Новости</h2>
@@ -70,15 +72,15 @@
 					<a class="button" href="#">Вперед</a>
 				</section>
 			</section>
-			<section class="contact-information">
+			<section class="contacts">
 				<a name="contacts">
 					<h2 class="contact-information__heading">Контактная Информация</h2>
 				</a>
-				<p class="contact-information__address">
+				<p class="contacts__address">
 					Барбершоп &laquo;Бородинский&raquo;<br>
 					Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
 					Телефон +7 (495) 666-02-66</p>
-				<p class="contact-information__working-hours">Время работы:<br>
+				<p class="contacts__working-hours">Время работы:<br>
 					ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
 				<a class="button" href="#">Как проехать</a>
 				<a class="button" href="#">Обратная связь</a>
@@ -86,17 +88,19 @@
 			<section class="record">
 				<h2 class="record__heading">Записаться</h2>
 				<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-				<form class="record__form" action="#">
-					<input class="record__input" type="text" name="date" placeholder="Дата">
-					<input class="record__input" type="text" name="time" placeholder="Время">
-					<input class="record__input" type="text" name="name" placeholder="Ваше имя">
-					<input class="record__input" type="text" name="phone" placeholder="Телефон">
-					<input class="record__input" type="submit" value="Отправить">
+				<form class="record-form" action="#">
+					<input class="record-form__input" type="text" name="date" placeholder="Дата">
+					<input class="record-form__input" type="text" name="time" placeholder="Время">
+					<input class="record-form__input" type="text" name="name" placeholder="Ваше имя">
+					<input class="record-form__input" type="text" name="phone" placeholder="Телефон">
+					<input class="record-form__input" type="submit" value="Отправить">
 				</form>
 			</section>
 		</section>
-	</main>
-	<footer class="footer">
+	</div>
+</main>
+<footer class="page-footer">
+	<div class="container">
 		<section class="address">
 			<p class="address__text">
 				Барбершоп &laquo;Бородинский&raquo;<br>
@@ -122,7 +126,7 @@
 			<span class="developer__heading">Разработано:</span>
 			<a class="developer__link" href="#">htmlacademy.ru</a>
 		</p>
-	</footer>
-</div>
+	</div>
+</footer>
 </body>
 </html>

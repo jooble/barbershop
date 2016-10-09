@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-	<header>
+
+<header>
+	<div class="container">
 		<a class="mini-logo" href="index.html">
 			<img class="mini-logo__img" src="img/logo/mini-logo.png" alt="Barbershop">
 		</a>
@@ -19,20 +20,24 @@
 			<a class="navigation__item" href="shop.html">Магазин</a>
 			<a class="navigation__item" href="index.html#contacts">Контакты</a>
 		</nav>
-    <span class="login">
-        <a class="login__link" href="#">Вход</a>
-    </span>
-		<h1 class="page-heading">Прайс-Лист</h1>
-		<ul class="breadcrumbs">
-			<li class="breadcrumbs__item">
-				<a class="breadcrumbs__link" href="index.html">Главная</a>
-			</li>
-			<li class="breadcrumbs__item">
-				<a class="breadcrumbs__link" href="#">Прайс-Лист</a>
-			</li>
-		</ul>
-	</header>
-	<main>
+		<section class="login">
+			<a class="login__link" href="#">Вход</a>
+		</section>
+	</div>
+</header>
+<main>
+	<div class="container">
+		<section class="about-page">
+			<h1 class="page-heading">Прайс-Лист</h1>
+			<ul class="breadcrumbs">
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link" href="index.html">Главная</a>
+				</li>
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link" href="#">Прайс-Лист</a>
+				</li>
+			</ul>
+		</section>
 		<h2 class="main__heading">Истинно мужская классика</h2>
 		<section class="our-means">
 			<h3 class="our-means__heading">Мы используем только лучшие средства:</h3>
@@ -78,13 +83,17 @@
 				и свободно!
 			</p>
 		</section>
-	</main>
-	<footer>
-		<p class="address">
-			Барбершоп &laquo;Бородинский&raquo;<br>
-			Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
-			<a class="address__map" href="#">Как нас найти?</a><br>
-			Телефон +7 (495) 666-02-66</p>
+	</div>
+</main>
+<footer class="page-footer">
+	<div class="container">
+		<section class="address">
+			<p class="address__text">
+				Барбершоп &laquo;Бородинский&raquo;<br>
+				Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
+				<a class="address__map" href="#">Как нас найти?</a><br>
+				Телефон +7 (495) 666-02-66</p>
+		</section>
 		<section class="social">
 			<span class="social__heading">Давайте дружить!</span>
 			<ul class="social__links">
@@ -103,7 +112,7 @@
 			<span class="developer__heading">Разработано:</span>
 			<a class="developer__link" href="#">htmlacademy.ru</a>
 		</p>
-	</footer>
-</div>
+	</div>
+</footer>
 </body>
 </html>

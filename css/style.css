@@ -79,7 +79,7 @@ address {
 .breadcrumbs {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
+	padding: 0;
 }
 
 .product-gallery {
@@ -112,4 +112,43 @@ address {
 .composition__list {
 	list-style-type: none;
 	padding: 0;
+}
+
+.main__heading {
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+}
+
+.our-means {
+	width: 450px;
+}
+
+.our-means__list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.price-list {
+	width: 450px;
+}
+
+.about-page {
+	width: 900px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.about-us {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.about-us__heading {
+	width: 500px;
+}
+
+.about-us__text {
+	width: 450px;
 }

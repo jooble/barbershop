@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-	<header>
+<header class="page-header">
+	<div class="container">
 		<a class="mini-logo" href="index.html">
 			<img class="mini-logo__img" src="img/logo/mini-logo.png" alt="Barbershop">
 		</a>
@@ -19,9 +19,13 @@
 			<a class="navigation__item--clicked" href="shop.html">Магазин</a>
 			<a class="navigation__item" href="index.html#contacts">Контакты</a>
 		</nav>
-    	<span class="login">
-        <a class="login__link" href="#">Вход</a>
-    	</span>
+		<section class="login">
+			<a class="login__link" href="#">Вход</a>
+		</section>
+	</div>
+</header>
+<main>
+	<div class="container">
 		<h1 class="page-heading">Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></h1>
 		<ul class="breadcrumbs">
 			<li class="breadcrumbs__item">
@@ -38,16 +42,15 @@
 					<span>&laquo;Baxter of California&raquo;</span></a>
 			</li>
 		</ul>
-	</header>
-	<main>
-		<section class="gallery">
-			<img class="gallery__item" src="img/products/item-big.jpg" width="486" height="524"
+
+		<section class="product-gallery">
+			<img class="product-gallery__item" src="img/products/item-big.jpg" width="486" height="524"
 				 alt="Набор для путешествий">
-			<img class="gallery__item" src="img/products/item-min-2.jpg" width="200" height="200"
+			<img class="product-gallery__item" src="img/products/item-min-2.jpg" width="166" height="175"
 				 alt="Набор для путешествий">
-			<img class="gallery__item" src="img/products/item-min-3.jpg" width="200" height="200"
+			<img class="product-gallery__item" src="img/products/item-min-3.jpg" width="166" height="175"
 				 alt="Набор для путешествий">
-			<img class="gallery__item" src="img/products/item-min-1.jpg" width="200" height="200"
+			<img class="product-gallery__item" src="img/products/item-min-1.jpg" width="166" height="175"
 				 alt="Набор для путешествий">
 		</section>
 		<section class="product-description">
@@ -61,7 +64,7 @@
 					шампунь.Набор также может стать отличным подарком.
 				</p>
 				<span class="description__price">3 900 РУБ.</span>
-				<a class="button" href="#">Купить</a>
+				<a class="product__buy button" href="#">Купить</a>
 			</section>
 			<section class="composition">
 				<span class="composition__heading">В набор входят:</span>
@@ -74,13 +77,17 @@
 				</ul>
 			</section>
 		</section>
-	</main>
-	<footer>
-		<p class="address">
-			Барбершоп &laquo;Бородинский&raquo;<br>
-			Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
-			<a class="address__map" href="#">Как нас найти?</a><br>
-			Телефон +7 (495) 666-02-66</p>
+	</div>
+</main>
+<footer class="page-footer">
+	<div class="container">
+		<section class="address">
+			<p class="address__text">
+				Барбершоп &laquo;Бородинский&raquo;<br>
+				Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
+				<a class="address__map" href="#">Как нас найти?</a><br>
+				Телефон +7 (495) 666-02-66</p>
+		</section>
 		<section class="social">
 			<span class="social__heading">Давайте дружить!</span>
 			<ul class="social__links">
@@ -99,7 +106,7 @@
 			<span class="developer__heading">Разработано:</span>
 			<a class="developer__link" href="#">htmlacademy.ru</a>
 		</p>
-	</footer>
-</div>
+	</div>
+</footer>
 </body>
 </html>

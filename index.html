@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="page-header">
-	<div class="container">
+	<div class="container container--row">
 		<nav class="navigation">
 			<a class="navigation__item" href="#">Информация</a>
 			<a class="navigation__item" href="#news">Новости</a>
@@ -48,9 +48,7 @@
 		</section>
 		<section class="page-main__content">
 			<section class="news">
-				<a name="news">
-					<h2 class="news__heading">Новости</h2>
-				</a>
+				<h2 id="news" class="news__heading">Новости</h2>
 				<article class="news-item">
 					<p class="news-item__text">Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во
 						время стрижки</p>
@@ -73,9 +71,7 @@
 				</section>
 			</section>
 			<section class="contacts">
-				<a name="contacts">
-					<h2 class="contact-information__heading">Контактная Информация</h2>
-				</a>
+				<h2 id="contacts" class="contact-information__heading">Контактная Информация</h2>
 				<p class="contacts__address">
 					Барбершоп &laquo;Бородинский&raquo;<br>
 					Адрес: Г. Санкт-Петербург, Б.Конюшенная, Д. 19/8<br>
@@ -85,22 +81,22 @@
 				<a class="button" href="#">Как проехать</a>
 				<a class="button" href="#">Обратная связь</a>
 			</section>
-			<section class="record">
-				<h2 class="record__heading">Записаться</h2>
-				<p class="record__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-				<form class="record-form" action="#">
-					<input class="record-form__input" type="text" name="date" placeholder="Дата">
-					<input class="record-form__input" type="text" name="time" placeholder="Время">
-					<input class="record-form__input" type="text" name="name" placeholder="Ваше имя">
-					<input class="record-form__input" type="text" name="phone" placeholder="Телефон">
-					<input class="record-form__input" type="submit" value="Отправить">
+			<section class="entry">
+				<h2 class="entry__heading">Записаться</h2>
+				<p class="entry__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+				<form class="entry-form" action="#">
+					<input class="entry-form__input" type="text" name="date" placeholder="Дата">
+					<input class="entry-form__input" type="text" name="time" placeholder="Время">
+					<input class="entry-form__input" type="text" name="name" placeholder="Ваше имя">
+					<input class="entry-form__input" type="text" name="phone" placeholder="Телефон">
+					<input class="entry-form__input" type="submit" value="Отправить">
 				</form>
 			</section>
 		</section>
 	</div>
 </main>
 <footer class="page-footer">
-	<div class="container">
+	<div class="container container--row">
 		<section class="address">
 			<p class="address__text">
 				Барбершоп &laquo;Бородинский&raquo;<br>

@@ -38,7 +38,14 @@
 
 .advantages-item {
 	width: 300px;
+	display: flex;
+	flex-flow: column;
 }
+
+.advantages-item__heading {
+	margin: 0 auto;
+}
+
 
 .page-main__content {
 	display: flex;

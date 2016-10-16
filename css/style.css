@@ -35,15 +35,13 @@
 
 .navigation {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 20pt;
-	font-size: 16pt;
+	font-size: 22px;
 	font-weight: 700;
 }
 
 .login {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 20pt;
-	font-size: 16pt;
+	font-size: 22px;
 	font-weight: 700;
 }
 
@@ -61,15 +59,14 @@
 .advantages-item__heading {
 	margin: 0 auto;
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .advantages-item__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -84,22 +81,20 @@
 
 .news__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .news-item__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
 .news-item__date {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
 	font-weight: 700;
 }
 
@@ -109,8 +104,7 @@
 
 .gallery__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
@@ -120,22 +114,21 @@
 
 .contacts__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .contacts__address {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
 .contacts__working-hours {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -145,15 +138,14 @@
 
 .entry__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .entry__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -164,8 +156,8 @@
 .address {
 	margin: 0;
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -175,8 +167,8 @@
 
 .social {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 	margin: 0;
 }
@@ -187,20 +179,21 @@
 }
 
 .developer {
-	flex-flow: column;
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
+
 	margin: 0;
 	display: flex;
+	flex-flow: column;
 }
 
 .breadcrumbs {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
 	font-weight: 700;
+
 	list-style-type: none;
 	display: flex;
 	padding: 0;
@@ -220,8 +213,8 @@
 
 .description {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 
 	display: flex;
@@ -240,15 +233,14 @@
 
 .composition__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 }
 
 .composition__list {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 
 	list-style-type: none;
@@ -267,15 +259,14 @@
 
 .our-means__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 }
 
 .our-means__list {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19pt;
+	line-height: 1.5;
 	font-weight: 700;
 
 	list-style-type: none;
@@ -288,15 +279,14 @@
 
 .price-list__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 }
 
 .price-list-table {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -314,8 +304,7 @@
 
 .about-us__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 
 	width: 500px;
@@ -323,8 +312,8 @@
 
 .about-us__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 
 	width: 450px;
@@ -338,29 +327,27 @@
 
 .producers__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 }
 
 .producers__item {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 18pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
 .product-groups__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 30pt;
-	font-size: 24pt;
+	font-size: 32px;
 	font-weight: 700;
 }
 
 .product-groups__item {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 18pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
@@ -379,15 +366,14 @@
 
 .product__name {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 18pt;
-	font-size: 14pt;
+	font-size: 19px;
+	line-height: 1.5;
 	font-weight: 700;
 }
 
 .product__price {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 18pt;
-	font-size: 14pt;
+	font-size: 19px;
 	font-weight: 700;
 }
 
@@ -397,21 +383,18 @@
 
 .page-heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 42pt;
-	font-size: 30pt;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .main__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 48pt;
-	font-size: 48pt;
+	font-size: 64px;
 	font-weight: 700;
 }
 
 .button {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	line-height: 24pt;
-	font-size: 14pt;
+	font-size: 19px;
 	font-weight: 700;
 }

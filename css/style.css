@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic');
 
+body {
+	background: #070707 url("../img/background.jpg") no-repeat -430px 0;
+}
+
+/*
+TODO
+1. Переделать advantages.
+*/
+
+.button {
+	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 700;
+
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+
+	display: inline-block;
+	background: #000000;
+
+	padding: 15px 0;
+}
+
 .container {
 	width: 900px;
 	margin: 0 auto;
@@ -13,17 +39,69 @@
 	justify-content: space-between;
 }
 
-.page-main__top {
+.page-header {
+	width: 100%;
+	background-color: #000000;
+
+	min-height: 70px;
+}
+
+.navigation {
+	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	min-height: 70px;
 	display: flex;
-	flex-flow: column nowrap;
+}
+
+.navigation__item {
+	color: #ffffff;
+	text-decoration: none;
+
+	margin: auto 0;
+	padding: 0 18px;
+}
+
+.login {
+	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	margin: auto 0;
+}
+
+.login__link {
+	display: flex;
+	flex-flow: row nowrap;
+	color: #ffffff;
+
+	text-decoration: none;
+
+	padding-right: 20px;
+}
+
+.login__link::before {
+	content: " ";
+	display: block;
+	width: 18px;
+	height: 16px;
+
+	background: url("../img/icon-login.png") no-repeat;
+	margin: auto 0;
+	padding-right: 10px;
 }
 
 .logo {
 	display: flex;
+	min-height: 290px;
 }
 
 .logo__img {
-	margin: 0 auto;
+	margin: auto;
 	width: 368px;
 	height: 204px;
 }
@@ -33,17 +111,9 @@
 	height: 24px;
 }
 
-.navigation {
-	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 22px;
-	line-height: 1;
-	font-weight: 700;
-}
-
-.login {
-	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 22px;
-	font-weight: 700;
+.page-main__top {
+	display: flex;
+	flex-flow: column nowrap;
 }
 
 .advantages {
@@ -55,21 +125,37 @@
 	width: 300px;
 	display: flex;
 	flex-flow: column;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
 .advantages-item__heading {
 	margin: 0 auto;
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 700;
+
+	display: flex;
+	flex-flow: column;
+}
+
+.advantages-item__heading::after {
+	content: " ";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: white;
+	margin: 20px auto;
+	transform: rotate(45deg);
 }
 
 .advantages-item__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+	text-align: center;
 }
 
 .page-main__content {
@@ -78,94 +164,224 @@
 }
 
 .news {
+	margin-top: 50px;
 	width: 450px;
+	min-height: 430px;
+
+	background-color: #f9f6f3;
+	text-transform: uppercase;
 }
 
 .news__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 700;
+
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 .news-item__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 .news-item__date {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1;
 	font-weight: 700;
+	text-transform: lowercase;
+
+	display: block;
+
+	margin-top: 0;
+	margin-left: 50px;
 }
 
-.product-gallery {
+.news__all-news {
+	font-size: 14px;
+
+	margin-top: 35px;
+	margin-left: 50px;
+
+	width: 140px;
+}
+
+.gallery {
+	margin-top: 50px;
 	width: 450px;
+	min-height: 430px;
+
+	background-color: #f9f6f3;
+	text-transform: uppercase;
 }
 
 .gallery__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 700;
+
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.gallery__photo {
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 286px;
+	height: 164px;
+	display: block;
+
+	border: #ffffff solid 10px;
+}
+
+.gallery-controls {
+	margin-top: 45px;
+	margin-left: 50px;
+	width: 300px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery-controls__item {
+	width: 140px;
 }
 
 .contacts {
+	margin-top: 35px;
 	width: 450px;
+	min-height: 430px;
+
+	background-color: #f9f6f3;
+	text-transform: uppercase;
 }
 
 .contacts__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 700;
+
+	margin-left: 50px;
+	margin-top: 50px;
 }
 
 .contacts__address {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+
+	margin-left: 50px;
+	margin-top: 30px;
 }
 
 .contacts__working-hours {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.contacts-navigation {
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 30px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts-navigation__item {
+	width: 140px;
 }
 
 .entry {
+	margin-top: 35px;
 	width: 450px;
+
+	background-color: #f9f6f3;
+	text-transform: uppercase;
 }
 
 .entry__heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 700;
+
+	margin-left: 50px;
+	margin-top: 50px;
 }
 
 .entry__text {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.entry-form {
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 300px;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.entry-form__input {
+	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	margin-bottom: 20px;
+	width: 135px;
+	min-height: 35px;
+
+	border: #000101 solid 2px;
+	background-color: #f9f6f3;
+}
+
+.entry-form__submit {
+	border: none;
+	flex-grow: 1;
 }
 
 .page-footer {
+	margin-top: 65px;
 	min-height: 190px;
+
+	background: url("../img/footer-bg.jpg") repeat-x;
 }
 
 .address {
-	margin: 0;
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	margin: 60px 0 0;
 }
 
 .address__text {
@@ -174,26 +390,81 @@
 
 .social {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
-	margin: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	margin: 60px 0 0;
+	width: 140px;
+
+	display: flex;
+	flex-flow: column;
 }
 
-.social__links {
+.social__heading {
+	margin: 0 auto;
+}
+
+.social-links {
+	margin-top: 20px;
+
+	margin-left: 0;
+	padding: 0;
 	list-style-type: none;
+
 	display: flex;
+	justify-content: space-between;
+}
+
+.social-links__link {
+	display: inline-block;
+	width: 40px;
+	min-height: 40px;
+	padding: 0;
+
+	background-position: center;
+}
+
+.social-link--fb {
+	background: #000000 url("../img/social-images/icon-facebook.png") no-repeat center;
+}
+
+.social-link--vk {
+	background: #000000 url("../img/social-images/icon-vk.png") no-repeat center;
+}
+
+.social-link--inst {
+	background: #000000 url("../img/social-images/icon-instagram.png") no-repeat center;
+}
+
+.address__map {
+	color: #ffffff;;
 }
 
 .developer {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
 
-	margin: 0;
+	margin: 60px 0 0;
+	width: 140px;
 	display: flex;
 	flex-flow: column;
+}
+
+.developer__heading {
+	margin: 0 auto;
+}
+
+.developer__link {
+	margin-top: 20px;
+	width: 140px;
+	color: #ffffff;
 }
 
 .breadcrumbs {
@@ -404,13 +675,6 @@
 .page-heading {
 	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
 	font-size: 40px;
-	line-height: 1;
-	font-weight: 700;
-}
-
-.button {
-	font-family: "PT Sans Narrow", "Tahoma", sans-serif;
-	font-size: 19px;
 	line-height: 1;
 	font-weight: 700;
 }

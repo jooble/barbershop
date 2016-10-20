@@ -35,9 +35,9 @@
 				</section>
 				<section class="advantages-item">
 					<h2 class="advantages-item__heading">Круто</h2>
-					<p class="advantages-item__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола
-						или
-						кино!</p>
+					<p class="advantages-item__text">Забудьте, как вы стриглись раньше. <br> Мы сделаем из вас звезду
+						футбола
+						или кино! <br> Во всяком случае внешне.</p>
 				</section>
 				<section class="advantages-item">
 					<h2 class="advantages-item__heading">Дорого</h2>
@@ -60,14 +60,14 @@
 						множества титулов и наград пополнил наши стройные ряды.</p>
 					<span class="news-item__date">18 января</span>
 				</article>
-				<a class="button" href="#">Все новости</a>
+				<a class="news__all-news button" href="#">Все новости</a>
 			</section>
 			<section class="gallery">
 				<h2 class="gallery__heading">Фотогалерея</h2>
-				<img class="gallery__photo" src="img/gallery-1.jpg" alt="gallery">
-				<section class="gallery__navigation">
-					<a class="button" href="#">Назад</a>
-					<a class="button" href="#">Вперед</a>
+				<img class="gallery__photo" src="img/gallery-1.jpg" width="286" height="164" alt="gallery">
+				<section class="gallery-controls">
+					<a class="gallery-controls__item button" href="#">Назад</a>
+					<a class="gallery-controls__item button" href="#">Вперед</a>
 				</section>
 			</section>
 			<section class="contacts">
@@ -78,8 +78,10 @@
 					Телефон +7 (495) 666-02-66</p>
 				<p class="contacts__working-hours">Время работы:<br>
 					ПН &mdash; ПТ: с 10:00 до 22:00 СБ &mdash; ВС: с 10:00 до 19:00</p>
-				<a class="button" href="#">Как проехать</a>
-				<a class="button" href="#">Обратная связь</a>
+				<section class="contacts-navigation">
+					<a class="contacts-navigation__item button" href="#">Как проехать</a>
+					<a class="contacts-navigation__item button" href="#">Обратная связь</a>
+				</section>
 			</section>
 			<section class="entry">
 				<h2 class="entry__heading">Записаться</h2>
@@ -89,7 +91,7 @@
 					<input class="entry-form__input" type="text" name="time" placeholder="Время">
 					<input class="entry-form__input" type="text" name="name" placeholder="Ваше имя">
 					<input class="entry-form__input" type="text" name="phone" placeholder="Телефон">
-					<input class="entry-form__input" type="submit" value="Отправить">
+					<input class="entry-form__submit button" type="submit" value="Отправить">
 				</form>
 			</section>
 		</section>
@@ -106,21 +108,21 @@
 		</section>
 		<section class="social">
 			<span class="social__heading">Давайте дружить!</span>
-			<ul class="social__links">
-				<li class="social__link social__link--vk">
-					<a class="button" href="#">V</a>
+			<ul class="social-links">
+				<li class="social-links__item">
+					<a class="social-links__link social-link--vk button" href="#"></a>
 				</li>
-				<li class="social__link social__link--fb">
-					<a class="button" href="#">F</a>
+				<li class="social-links__item">
+					<a class="social-links__link social-link--fb button" href="#"></a>
 				</li>
-				<li class="social__link social__link--inst">
-					<a class="button" href="#">I</a>
+				<li class="social-links__item">
+					<a class="social-links__link social-link--inst button" href="#"></a>
 				</li>
 			</ul>
 		</section>
 		<p class="developer">
 			<span class="developer__heading">Разработано:</span>
-			<a class="developer__link" href="#">htmlacademy.ru</a>
+			<a class="developer__link button" href="#">htmlacademy.ru</a>
 		</p>
 	</div>
 </footer>

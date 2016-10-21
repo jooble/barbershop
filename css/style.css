@@ -170,9 +170,6 @@ TODO
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
-
-	display: flex;
-	flex-flow: column wrap;
 }
 
 .news__heading {
@@ -191,6 +188,7 @@ TODO
 	line-height: 1.5;
 	font-weight: 700;
 
+	margin-top: 30px;
 	margin-left: 50px;
 }
 
@@ -201,16 +199,16 @@ TODO
 	font-weight: 700;
 	text-transform: lowercase;
 
-	display: inline-block;
+	display: block;
 
+	margin-top: 0;
 	margin-left: 50px;
-	padding-bottom: 10px;
 }
 
 .news__all-news {
 	font-size: 14px;
 
-	margin-top: 20px;
+	margin-top: 35px;
 	margin-left: 50px;
 
 	width: 140px;
@@ -372,7 +370,7 @@ TODO
 	margin-top: 65px;
 	min-height: 190px;
 
-	background: #070707 url("../img/footer-bg.jpg") repeat-x;
+	background: url("../img/footer-bg.jpg") repeat-x;
 }
 
 .address {

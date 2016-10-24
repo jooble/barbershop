@@ -242,7 +242,8 @@ TODO
 	text-transform: uppercase;
 
 	padding: 50px;
-	box-shadow: -1px 0 10px 0 #000000;
+
+	box-shadow: -8px 0 70px -22px #000000;
 }
 
 .gallery__heading {
@@ -340,7 +341,7 @@ TODO
 	text-transform: uppercase;
 
 	padding: 50px;
-	box-shadow: -1px 0 10px 0 #000000;
+	box-shadow: -8px 0 70px -22px #000000;
 }
 
 .entry__heading {

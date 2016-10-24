@@ -165,11 +165,13 @@ TODO
 
 .news {
 	margin-top: 50px;
-	width: 450px;
+	max-width: 450px;
 	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
+
+	padding: 50px;
 }
 
 .news__heading {
@@ -178,8 +180,15 @@ TODO
 	line-height: 1;
 	font-weight: 700;
 
-	margin-top: 50px;
-	margin-left: 50px;
+	width: 350px;
+
+	margin: 0;
+}
+
+.news-item {
+	width: 350px;
+
+	margin-top: 35px;
 }
 
 .news-item__text {
@@ -187,9 +196,6 @@ TODO
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 700;
-
-	margin-top: 30px;
-	margin-left: 50px;
 }
 
 .news-item__date {
@@ -200,27 +206,25 @@ TODO
 	text-transform: lowercase;
 
 	display: block;
-
-	margin-top: 0;
-	margin-left: 50px;
 }
 
 .news__all-news {
 	font-size: 14px;
 
-	margin-top: 35px;
-	margin-left: 50px;
-
 	width: 140px;
+
+	margin-top: 35px;
 }
 
 .gallery {
 	margin-top: 50px;
-	width: 450px;
+	max-width: 450px;
 	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
+
+	padding: 50px;
 }
 
 .gallery__heading {
@@ -229,23 +233,22 @@ TODO
 	line-height: 1;
 	font-weight: 700;
 
-	margin-top: 50px;
-	margin-left: 50px;
+	width: 350px;
+	margin: 0;
 }
 
 .gallery__photo {
-	margin-top: 30px;
-	margin-left: 50px;
 	width: 286px;
 	height: 164px;
 	display: block;
 
 	border: #ffffff solid 10px;
+
+	margin-top: 35px;
 }
 
 .gallery-controls {
 	margin-top: 45px;
-	margin-left: 50px;
 	width: 300px;
 
 	display: flex;
@@ -258,11 +261,13 @@ TODO
 
 .contacts {
 	margin-top: 35px;
-	width: 450px;
+	max-width: 450px;
 	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
+
+	padding: 50px;
 }
 
 .contacts__heading {
@@ -271,8 +276,8 @@ TODO
 	line-height: 1;
 	font-weight: 700;
 
-	margin-left: 50px;
-	margin-top: 50px;
+	margin: 0;
+	width: 350px;
 }
 
 .contacts__address {
@@ -281,8 +286,9 @@ TODO
 	line-height: 1.5;
 	font-weight: 700;
 
-	margin-left: 50px;
-	margin-top: 30px;
+	margin-top: 35px;
+	margin-bottom: 0;
+	width: 350px;
 }
 
 .contacts__working-hours {
@@ -291,17 +297,17 @@ TODO
 	line-height: 1.5;
 	font-weight: 700;
 
-	margin-left: 50px;
-	margin-top: 30px;
+	margin-top: 35px;
+	width: 150px;
 }
 
 .contacts-navigation {
 	width: 300px;
-	margin-left: 50px;
-	margin-top: 30px;
 
 	display: flex;
 	justify-content: space-between;
+
+	margin-top: 35px;
 }
 
 .contacts-navigation__item {
@@ -310,10 +316,12 @@ TODO
 
 .entry {
 	margin-top: 35px;
-	width: 450px;
+	max-width: 450px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
+
+	padding: 50px;
 }
 
 .entry__heading {
@@ -322,8 +330,8 @@ TODO
 	line-height: 1;
 	font-weight: 700;
 
-	margin-left: 50px;
-	margin-top: 50px;
+	margin: 0;
+	width: 350px;
 }
 
 .entry__text {
@@ -332,18 +340,19 @@ TODO
 	line-height: 1.5;
 	font-weight: 700;
 
-	margin-left: 50px;
-	margin-top: 30px;
+	width: 290px;
+	margin-top: 35px;
+	margin-bottom: 0;
 }
 
 .entry-form {
-	margin-left: 50px;
-	margin-top: 30px;
 	width: 300px;
 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+
+	margin-top: 30px;
 }
 
 .entry-form__input {

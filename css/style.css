@@ -158,7 +158,7 @@ TODO
 }
 
 .advantages-item__heading::after {
-	content: " ";
+	content: "";
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -183,7 +183,6 @@ TODO
 .news {
 	margin-top: 50px;
 	max-width: 450px;
-	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
@@ -234,10 +233,8 @@ TODO
 }
 
 .gallery {
-	position: relative;
 	margin-top: 50px;
 	max-width: 450px;
-	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;
@@ -282,7 +279,6 @@ TODO
 .contacts {
 	margin-top: 35px;
 	max-width: 450px;
-	min-height: 430px;
 
 	background-color: #f9f6f3;
 	text-transform: uppercase;

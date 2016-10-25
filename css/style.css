@@ -241,7 +241,7 @@ TODO
 
 	padding: 50px;
 
-	box-shadow: -105px 0 40px -120px #000000;
+	box-shadow: -82px 0 40px -100px #000000;
 }
 
 .gallery__heading {
@@ -338,7 +338,7 @@ TODO
 	text-transform: uppercase;
 
 	padding: 50px;
-	box-shadow: -105px 0 40px -120px #000000;
+	box-shadow: -82px 0 40px -100px #000000;
 }
 
 .entry__heading {
@@ -397,7 +397,7 @@ TODO
 	margin-top: 65px;
 	min-height: 190px;
 
-	background: url("../img/footer-bg.jpg") repeat-x;
+	background: url("../img/footer-bg.jpg");
 }
 
 .address {

@@ -30,13 +30,12 @@ TODO
 	width: 900px;
 	margin: 0 auto;
 	display: flex;
-	flex-flow: column;
-}
-
-.container--row {
-	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+.container--column {
+	flex-flow: column;
 }
 
 .page-header {
@@ -62,7 +61,7 @@ TODO
 	color: #ffffff;
 	text-decoration: none;
 
-	padding: 0 18px;
+	padding: 0 20px;
 
 	min-height: 70px;
 }
@@ -123,12 +122,18 @@ TODO
 	height: 204px;
 }
 
+.mini-logo {
+	display: flex;
+}
+
 .mini-logo__img {
+	padding-left: 20px;
+	margin: auto 0;
 	width: 111px;
 	height: 24px;
 }
 
-.page-main__top {
+.index-main__top {
 	display: flex;
 	flex-flow: column nowrap;
 }
@@ -175,7 +180,7 @@ TODO
 	text-align: center;
 }
 
-.page-main__content {
+.index-main__content {
 	display: flex;
 	flex-flow: row wrap;
 }

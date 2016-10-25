@@ -7,17 +7,27 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-	<div class="container container--row">
+<header class="page-header">
+	<div class="container">
 		<a class="mini-logo" href="index.html">
 			<img class="mini-logo__img" src="img/logo/mini-logo.png" width="111" height="24" alt="Barbershop">
 		</a>
 		<nav class="navigation">
-			<a class="navigation__item" href="#">Информация</a>
-			<a class="navigation__item" href="index.html#news">Новости</a>
-			<a class="navigation__item" href="price.html">Прайс-лист</a>
-			<a class="navigation__item--clicked" href="shop.html">Магазин</a>
-			<a class="navigation__item" href="index.html#contacts">Контакты</a>
+			<a class="navigation__item" href="#">
+				<span class="navigation__text">Информация</span>
+			</a>
+			<a class="navigation__item" href="index.html#news">
+				<span class="navigation__text">Новости</span>
+			</a>
+			<a class="navigation__item" href="price.html">
+				<span class="navigation__text">Прайс-лист</span>
+			</a>
+			<a class="navigation__item navigation__item--active" href="shop.html">
+				<span class="navigation__text">Магазин</span>
+			</a>
+			<a class="navigation__item" href="index.html#contacts">
+				<span class="navigation__text">Контакты</span>
+			</a>
 		</nav>
 		<section class="login">
 			<a class="login__link" href="#">Вход</a>
@@ -25,7 +35,7 @@
 	</div>
 </header>
 <main>
-	<div class="container container--row">
+	<div class="container">
 		<section class="about-page">
 			<h1 class="page-heading">Средства для ухода</h1>
 			<ul class="breadcrumbs">
@@ -162,7 +172,7 @@
 	</div>
 </main>
 <footer class="page-footer">
-	<div class="container container--row">
+	<div class="container">
 		<section class="address">
 			<p class="address__text">
 				Барбершоп &laquo;Бородинский&raquo;<br>

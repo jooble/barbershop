@@ -106,7 +106,7 @@ TODO
 	width: 18px;
 	height: 16px;
 
-	background: url("../img/icon-login.png") no-repeat;
+	background: #000000 url("../img/icon-login.png") no-repeat;
 	margin: auto 0;
 	padding-right: 10px;
 }
@@ -402,7 +402,7 @@ TODO
 	margin-top: 65px;
 	min-height: 190px;
 
-	background: url("../img/footer-bg.jpg");
+	background: #070707 url("../img/footer-bg.jpg");
 }
 
 .address {
